@@ -1,2 +1,30 @@
 @import url(style.css);
 
+@media screen and (max-width:480px) {
+
+    .ul-header,
+    .nav-header>button {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .intro-hero {
+        align-items: space-between;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container-img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .container-img>img{
+        width: 40%;
+    }
+
+}
