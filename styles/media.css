@@ -2,6 +2,20 @@
 
 @media screen and (max-width:480px) {
 
+    /*  Header  */
+    .nav-header{
+        background-color: #FFF;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        padding: 15px;
+        padding-top: 25px;
+        position: fixed;
+        top: 0;
+    }
+
+    .fa-bars:before{
+        font-size: 2em;
+    }
+
     .ul-header,
     .nav-header>button {
         display: none;
@@ -11,10 +25,11 @@
         display: flex;
     }
 
+    /*  Main    */
     .intro-hero {
-        align-items: space-between;
         flex-direction: column;
         justify-content: center;
+        padding: 30px;
     }
 
     .container-img {
@@ -23,8 +38,32 @@
         width: 100%;
     }
 
-    .container-img>img{
-        width: 40%;
+    .container-img>img {
+        width: 100%;
+        margin-top: 25%;
     }
 
+    .container-text{
+        justify-content: flex-end;
+        padding: 5px;
+        width: 95%;
+    }
+
+    .container-text>h1 {
+        color: var(--dark-blue);
+        font-size: 33px;
+        justify-content: flex-end;
+        margin: 20px;
+    }
+
+    .lightblue-bar{
+        background-color: var(--primary-lightblue);
+        flex-direction: column;
+    }
+
+    .lightblue-bar>h2,
+    .lightblue-bar>p {
+        width: 100%;
+        padding: 20px;
+    }
 }
