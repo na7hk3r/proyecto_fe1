@@ -76,7 +76,7 @@
     }
 
     .main-list {
-        width: 97%;
+        width: 93%;
     }
 
     .numb {
@@ -97,6 +97,10 @@
         padding: 13px;
         margin-top: 10px;
         margin-left: 0;
+    }
+
+    .main-list>p:last-child {
+        width: 97%;
     }
 
     .card {
@@ -157,14 +161,6 @@
 
     .input {
         width: 100%;
-    }
-
-    input#mail-list {
-        width: 70%;
-    }
-
-    .input>button {
-        width: 20%;
     }
 
     .base {
