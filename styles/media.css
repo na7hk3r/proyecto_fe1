@@ -3,7 +3,7 @@
 @media screen and (max-width:480px) {
 
     /*  Header  */
-    .nav-header{
+    .nav-header {
         background-color: #FFF;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         padding-top: 25px;
@@ -13,7 +13,7 @@
         z-index: 10;
     }
 
-    .fa-bars:before{
+    .fa-bars:before {
         font-size: 2em;
     }
 
@@ -44,7 +44,7 @@
         margin-top: 25%;
     }
 
-    .container-text{
+    .container-text {
         justify-content: flex-end;
         padding: 5px;
         width: 95%;
@@ -57,9 +57,11 @@
         margin: 20px;
     }
 
-    .lightblue-bar{
+    .lightblue-bar {
         background-color: var(--primary-lightblue);
         flex-direction: column;
+        padding: 60px;
+        text-align: center;
     }
 
     .lightblue-bar>h2,
@@ -73,11 +75,11 @@
         padding: 60px 0 60px 80px;
     }
 
-    .main-list{
+    .main-list {
         width: 97%;
     }
 
-    .numb{
+    .numb {
         height: 42px;
         padding: 10px;
         right: 35px;
@@ -85,40 +87,92 @@
         width: 60px;
     }
 
-    .main-list>span{
+    .main-list>span {
         background-color: #dcc8ed;
         padding: 2.7%;
         padding-left: 10%;
     }
 
-    .main-list>p{
+    .main-list>p {
         padding: 13px;
         margin-top: 10px;
         margin-left: 0;
     }
 
-    .card{
+    .card {
         width: 100%;
     }
 
-    .navarro{
+    .navarro,
+    .sanyo {
         display: none;
     }
 
-    .sanyo{
-        display: none;
+    .btn-2 {
+        background-color: var(--dark-blue);
+        color: #FFF;
+    }
+
+    .btn-2:hover {
+        background-color: var(--gray-blue);
     }
 
 
     /*  Footer  */
-
-    footer{
+    footer {
         flex-direction: column-reverse;
         align-items: center;
     }
 
-    .nav-footer{
-            align-items: flex-start;
-            width: 100%;
+    .nav-footer {
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .left-block {
+        flex-direction: column-reverse;
+        padding: 6%;
+        width: 100%;
+    }
+
+    .left-block>img {
+        width: 30%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .icons {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .icons>i::before {
+        font-size: 1.5em;
+    }
+
+    .input-container {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    input#mail-list {
+        width: 70%;
+    }
+
+    .input>button {
+        width: 20%;
+    }
+
+    .base {
+        justify-content: center;
+        height: 20%;
+    }
+
+    .base>p {
+        font-size: 1em;
     }
 }
