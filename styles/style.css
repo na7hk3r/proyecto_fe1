@@ -32,7 +32,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background-color: var(--gray-blue);
+  background: linear-gradient(to bottom, var(--gray-blue) 60%, var(--primary-lightblue), var(--gray-blue));
 }
 
 
