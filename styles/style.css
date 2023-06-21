@@ -21,7 +21,27 @@
 html {
   height: auto;
   width: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-violet) var(--gray-blue);
   scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: var(--gray-blue);
+}
+
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--primary-violet);
+}
+
+::selection {
+  background-color: var(--primary-violet);
+  color: #FFF;
 }
 
 /*   Header   */
