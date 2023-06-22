@@ -90,13 +90,13 @@ html::-webkit-scrollbar-thumb {
   cursor: pointer;
   font-size: 14px;
   height: 45px;
+  margin-top: 7%;
   width: 110px;
 }
 
 .btn:hover {
   background-color: #bb63ff;
   transition: 0.5s;
-  margin-top: 7%;
 }
 
 /*   Main Sections   */
