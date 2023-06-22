@@ -19,12 +19,12 @@
 }
 
 html {
-  height: auto;
-  width: 100%;
-  scrollbar-width: thin;
-  scrollbar-color: var(--primary-violet) var(--gray-blue);
-  scroll-behavior: smooth;
   background-color: #FFF;
+  height: auto;
+  scroll-behavior: smooth;
+  scrollbar-color: var(--primary-violet) var(--gray-blue);
+  scrollbar-width: thin;
+  width: 100%;
 }
 
 html::-webkit-scrollbar {
@@ -166,9 +166,9 @@ html::-webkit-scrollbar-thumb {
   flex-wrap: wrap;
   height: auto;
   justify-content: space-around;
+  margin: auto;
   padding: 10px 20px;
   width: 100%;
-  margin: auto;
 }
 
 .main-list {
@@ -184,7 +184,7 @@ html::-webkit-scrollbar-thumb {
   font-weight: 500;
 }
 
-.main-list>p:last-child{
+.main-list>p:last-child {
   padding: 20px;
   width: 65%;
 }
@@ -279,15 +279,15 @@ html::-webkit-scrollbar-thumb {
 /*  Footer  */
 
 footer {
+  align-items: baseline;
   background-color: var(--gray-blue);
+  bottom: 0;
   color: #FFF;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding: 5%;
   width: 100%;
-  bottom: 0;
-  align-items: baseline;
 }
 
 .left-block {
@@ -354,9 +354,9 @@ footer {
 }
 
 .input-container {
-  width: 25%;
   display: flex;
   flex-direction: column;
+  width: 25%;
 }
 
 input {
