@@ -29,6 +29,7 @@
     /*  Main    */
     .intro-hero {
         flex-direction: column;
+        height: 100vh;
         justify-content: center;
         padding: 30px;
     }
@@ -89,8 +90,7 @@
 
     .main-list>span {
         background-color: #dcc8ed;
-        padding-left: 10%;
-        padding: 2.7%;
+        padding: 3% 3% 3% 9%;
     }
 
     .main-list>p {

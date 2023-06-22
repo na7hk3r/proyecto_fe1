@@ -96,6 +96,7 @@ html::-webkit-scrollbar-thumb {
 .btn:hover {
   background-color: #bb63ff;
   transition: 0.5s;
+  margin-top: 7%;
 }
 
 /*   Main Sections   */
