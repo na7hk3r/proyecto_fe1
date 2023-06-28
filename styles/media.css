@@ -1,5 +1,123 @@
 @import url(style.css);
 
+@media screen and (min-width:481px) and (max-width:768px) {
+    .nav-header {
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0;
+        padding: 8%;
+    }
+
+    .nav-header ul,
+    .btn {
+        display: none;
+    }
+
+    .burger {
+        display: inline-block;
+    }
+
+    .burger i::before {
+        font-size: 2.5em;
+    }
+
+    .nav-header a img {
+        width: 12rem;
+    }
+
+    .intro-hero {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        padding: 1px;
+        width: 100%;
+    }
+
+    .intro-hero img {
+        width: 130%;
+    }
+
+    .container-text h1 {
+        font-size: 2.2em;
+        text-align: right;
+        margin: 0;
+    }
+
+    .container-text .btn {
+        display: inline-block;
+    }
+
+    .lightblue-bar {
+        height: 20vh;
+    }
+
+    .lightblue-bar h2 {
+        font-size: 2.2em;
+        width: 50%;
+        padding: 2%;
+    }
+
+    .lightblue-bar>p {
+        width: 50%;
+        padding: 2%;
+    }
+
+    .main-list p:last-child {
+        width: 100%;
+    }
+
+    .testimony {
+        width: 100%;
+        height: 61vh;
+    }
+
+    .testimony h2 {
+        bottom: 5rem;
+        position: relative;
+    }
+
+    .numb {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 8rem;
+        justify-content: center;
+        right: 20px;
+        top: 170px;
+        width: 2em;
+    }
+
+    .card {
+        width: 30%;
+        height: auto;
+    }
+
+    .card h3 {
+        margin: 0;
+    }
+
+    .card p {
+        padding: 1em;
+        font-size: 70%;
+    }
+
+    .card img {
+        top: 10%;
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        background-color: var(--primary-violet);
+    }
+    .lightblue-bar{
+        justify-content:flex-start;
+    }
+    .lightblue-bar h2{
+        width: 80%;
+    }
+}
+
 @media screen and (max-width:480px) {
 
     /*  Header  */
