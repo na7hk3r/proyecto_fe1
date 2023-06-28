@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+$dark-blue: #232851;
+$gray-blue: #1e1e26;
+$gray-secondary: rgb(185, 185, 185);
+$light-gray: rgb(249, 249, 249);
+$primary-lightblue: #3cddf3;
+$primary-violet: #8b48bf;
+$secondary-violet: #bb63ff;
+$white: #FFF;
+
+* {
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: $white;
+    height: auto;
+    scroll-behavior: smooth;
+    scrollbar-color: $primary-violet $gray-blue;
+    scrollbar-width: thin;
+    width: 100%;
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: linear-gradient(to bottom, $gray-blue 60%, $primary-lightblue, $gray-blue);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $primary-violet;
+    }
+
+    &::selection {
+        background-color: $primary-violet;
+        color: $white;
+    }
+}
+
+/*  Header  */
+
+.nav-header {
+    align-items: center;
+    background-color: $white;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    padding: 50px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+    .burger {
+        display: none;
+    }
+
+    .ul-header {
+        display: flex;
+        font-size: 14px;
+        justify-content: space-around;
+        list-style-type: none;
+
+        li {
+            cursor: pointer;
+            margin-left: 20px;
+            margin-right: 20px;
+
+            &:hover {
+                color: $gray-secondary;
+            }
+        }
+    }
+}
+    .btn {
+        background-color: $primary-violet;
+        border-radius: 50px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+        color: $white;
+        cursor: pointer;
+        font-size: 14px;
+        height: 45px;
+        width: 110px;
+
+        &:hover {
+            background-color: $secondary-violet;
+            transition: 0.5s;
+        }
+    }
+
+/*  Main    */
+
+/**  Hero-Section    **/
+
+.intro-hero {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    width: 100%;
+
+    .container-img {
+        margin: 10px;
+        padding: 30px;
+        width: 50%;
+    }
+
+    .container-text {
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        padding: 60px;
+        text-align: right;
+        width: 50%;
+
+        h1 {
+            font-size: 50px;
+            font-weight: 700;
+            justify-content: flex-end;
+            margin-right: 0;
+            margin: 20px;
+        }
+
+        p {
+            margin: 15px 0 25px 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+}
+
+/*  Section What's Different   */
+
+.lightblue-bar {
+    align-items: center;
+    background-color: $primary-violet;
+    color: $light-gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+
+    h2 {
+        font-size: 2em;
+        font-weight: 500;
+        width: 30%;
+    }
+
+    p {
+        width: 40%;
+    }
+
+}
