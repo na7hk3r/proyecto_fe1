@@ -110,11 +110,48 @@
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         background-color: var(--primary-violet);
     }
-    .lightblue-bar{
-        justify-content:flex-start;
+
+    .lightblue-bar {
+        justify-content: flex-start;
     }
-    .lightblue-bar h2{
+
+    .lightblue-bar h2 {
         width: 80%;
+    }
+
+    footer {
+        align-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+    .left-block {
+        align-items: center;
+        height: 50%;
+        justify-content: center;
+        padding: 5%;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .icons {
+        margin: 0;
+        padding: 3%;
+        width: 50%;
+    }
+
+    .icons i::before {
+        padding: 0;
+    }
+
+    .icons i:hover{
+        color: var(--primary-lightblue);
+        transition: 0.4s;
+    }
+
+    .base {
+        justify-content: center;
     }
 }
 
