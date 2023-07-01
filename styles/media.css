@@ -124,6 +124,23 @@
         align-items: center;
         flex-direction: column-reverse;
         justify-content: space-around;
+        width: 100%;
+    }
+
+    .input-container,
+    .input{
+        align-items: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .input input {
+        width: 50%;
+    }
+    .btn-footer {
+        width: 10%;
+        display: inline-block;
     }
 
     .left-block {
