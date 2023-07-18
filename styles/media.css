@@ -1,5 +1,6 @@
 @import url(style.css);
 
+/*      Tablet      */
 @media screen and (min-width:481px) and (max-width:768px) {
     .nav-header {
         justify-content: space-between;
@@ -60,6 +61,10 @@
     .lightblue-bar>p {
         width: 50%;
         padding: 2%;
+    }
+
+    .number-paragraph{
+        padding: 10px 20px;
     }
 
     .main-list p:last-child {
@@ -172,6 +177,7 @@
     }
 }
 
+/*      Movil       */
 @media screen and (max-width:480px) {
 
     /*  Header  */

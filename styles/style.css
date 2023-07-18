@@ -169,7 +169,7 @@ html::-webkit-scrollbar-thumb {
   height: auto;
   justify-content:center;
   margin: auto;
-  padding: 10px 20px;
+  padding: 10px 20px 10px 20rem;
   width: 100%;
 }
 
